@@ -43,16 +43,38 @@ const Header = () => {
   const linkClasses = "mr-4 hover:text-yellow-400";
 
   return (
-    <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <header className="bg-blue-600 text-white p-4 flex justify-between items-center fixed top-0 left-0 right-0 z-10">
+
       <div className="text-2xl">
         <NavLink to="/" className="flex items-center">
           <FontAwesomeIcon icon={faPlayCircle} className="mr-2" /> MyMultimedia
         </NavLink>
       </div>
       <nav>
-        <NavLink to="/dashboard" className={({ isActive }) => isActive ? "mr-4 text-yellow-400" : linkClasses}>
+        {!isAuthenticated && (
+          <NavLink to="/" className={({ isActive }) => isActive ? "mr-4 text-yellow-400" : linkClasses}>
+          {t('header.home')}
+          </NavLink>
+        )}
+
+        {!isAuthenticated && (
+          <NavLink to="/help" className={({ isActive }) => isActive ? "mr-4 text-yellow-400" : linkClasses}>
+          {t('header.help')}
+          </NavLink>
+        )}
+
+        {!isAuthenticated && (
+          <NavLink to="/contact" className={({ isActive }) => isActive ? "mr-4 text-yellow-400" : linkClasses}>
+          {t('header.contact')}
+          </NavLink>
+        )}
+
+        {isAuthenticated && (
+          <NavLink to="/dashboard" className={({ isActive }) => isActive ? "mr-4 text-yellow-400" : linkClasses}>
           Dashboard
-        </NavLink>
+          </NavLink>
+        )}
+        
         {isAuthenticated && user && user.userType === 'admin' && (
           <div className="relative inline-block text-left" ref={dropdownRef}>
             <button onClick={toggleDropdown} className="inline-flex justify-center w-full px-4 py-2 bg-blue-600 text-white font-medium hover:text-yellow-400 focus:outline-none">

@@ -69,14 +69,18 @@ const ContentsByCategory = () => {
               </div>
               <p className="text-gray-700 mb-2">{content.description}</p>
               {content.contentSource === 'url' && (
-                <a href={content.url} className="btn btn-blue flex items-center justify-center mt-2 mx-2 py-2 px-4 bg-blue-500 text-white hover:bg-blue-700 rounded" target="_blank" rel="noopener noreferrer">
+                <Link to={`/content/${content._id}`} className="hover:underline">
+                <span className="btn btn-blue flex items-center justify-center mt-2 mx-2 py-2 px-4 bg-blue-500 text-white hover:bg-blue-700 rounded" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faEye} className="mr-1" /> View Content
-                </a>
+                </span>
+                </Link>
               )}
               {content.contentSource === 'file' && (
-                <a href={`http://localhost:5000/${content.filePath}`} className="btn btn-blue flex items-center justify-center mt-2 mx-2 py-2 px-4 bg-blue-500 text-white hover:bg-blue-700 rounded" target="_blank" rel="noopener noreferrer">
+                <Link to={`/content/${content._id}`} className="hover:underline">
+                <span className="btn btn-blue flex items-center justify-center mt-2 mx-2 py-2 px-4 bg-blue-500 text-white hover:bg-blue-700 rounded" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faEye} className="mr-1" /> View Content
-                </a>
+                </span>
+                </Link>
               )}
 
 
