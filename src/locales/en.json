@@ -1,0 +1,73 @@
+{
+  "header": {
+    "home": "Home",
+    "help": "Help",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "language": "Language",
+    "admin": "Admin",
+    "upload": "Upload",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "home": {
+    "welcome": "Welcome to MyMultimedia",
+    "description": "Manage your multimedia content efficiently with MyMultimedia.",
+    "feature1": "Upload and manage your videos, audios, and documents.",
+    "feature2": "Share your multimedia content with the world.",
+    "feature3": "Get feedback with likes, comments, and ratings."
+  },
+  "help": {
+    "title": "Help Center",
+    "description": "Find the support and resources you need.",
+    "faq": "Frequently Asked Questions",
+    "faqDescription": "Get answers to the most common questions.",
+    "guides": "Guides and Tutorials",
+    "guidesDescription": "Learn how to use MyMultimedia with our step-by-step guides.",
+    "support": "Customer Support",
+    "supportDescription": "Reach out to our support team for assistance."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "We would love to hear from you. Reach out to us through any of the following methods.",
+    "email": "Email Us",
+    "phone": "Call Us",
+    "address": "Visit Us"
+  },
+  "register": {
+    "title": "Register",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "userType": "User Type",
+    "lector": "Reader",
+    "creador": "Creator",
+    "language": "Language",
+    "profileImage": "Profile Image",
+    "submit": "Register",
+    "messages": {
+      "FILE_UPLOAD_ERROR": "File upload error",
+      "VALIDATION_ERRORS": "Validation errors",
+      "EMAIL_IN_USE": "Email already in use",
+      "USER_CREATED": "User created successfully",
+      "SERVER_ERROR": "Server error"
+    },
+    "loginPrompt": "You can now",
+    "loginLink": "login here"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "messages": {
+      "EMAIL_NOT_FOUND": "Email not found",
+      "INVALID_PASSWORD": "Invalid password",
+      "LOGIN_SUCCESSFUL": "Login successful",
+      "SERVER_ERROR": "Server error"
+    },
+    "redirectIn": "Redirecting in",
+    "seconds": "seconds"
+  }
+}

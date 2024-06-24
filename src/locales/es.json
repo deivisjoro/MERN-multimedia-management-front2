@@ -1,0 +1,73 @@
+{
+  "header": {
+    "home": "Inicio",
+    "help": "Ayuda",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "language": "Idioma",
+    "admin": "Admin",
+    "upload": "Subir",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión"
+  },
+  "home": {
+    "welcome": "Bienvenido a MyMultimedia",
+    "description": "Gestiona tu contenido multimedia de manera eficiente con MyMultimedia.",
+    "feature1": "Sube y gestiona tus videos, audios y documentos.",
+    "feature2": "Comparte tu contenido multimedia con el mundo.",
+    "feature3": "Obtén retroalimentación con likes, comentarios y calificaciones."
+  },
+  "help": {
+    "title": "Centro de Ayuda",
+    "description": "Encuentra el soporte y los recursos que necesitas.",
+    "faq": "Preguntas Frecuentes",
+    "faqDescription": "Obtén respuestas a las preguntas más comunes.",
+    "guides": "Guías y Tutoriales",
+    "guidesDescription": "Aprende a usar MyMultimedia con nuestras guías paso a paso.",
+    "support": "Soporte al Cliente",
+    "supportDescription": "Contacta a nuestro equipo de soporte para obtener ayuda."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Nos encantaría saber de ti. Comunícate con nosotros a través de cualquiera de los siguientes métodos.",
+    "email": "Envíanos un Correo",
+    "phone": "Llámanos",
+    "address": "Visítanos"
+  },
+  "register": {
+    "title": "Registrarse",
+    "username": "Nombre de usuario",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "userType": "Tipo de Usuario",
+    "lector": "Lector",
+    "creador": "Creador",
+    "language": "Idioma",
+    "profileImage": "Imagen de Perfil",
+    "submit": "Registrarse",
+    "messages": {
+      "FILE_UPLOAD_ERROR": "Error al subir el archivo",
+      "VALIDATION_ERRORS": "Errores de validación",
+      "EMAIL_IN_USE": "Correo electrónico ya en uso",
+      "USER_CREATED": "Usuario creado con éxito",
+      "SERVER_ERROR": "Error del servidor"
+    },
+    "loginPrompt": "Ahora puedes",
+    "loginLink": "iniciar sesión aquí"
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "messages": {
+      "EMAIL_NOT_FOUND": "Correo electrónico no encontrado",
+      "INVALID_PASSWORD": "Contraseña inválida",
+      "LOGIN_SUCCESSFUL": "Inicio de sesión exitoso",
+      "SERVER_ERROR": "Error del servidor"
+    },
+    "redirectIn": "Redirigiendo en",
+    "seconds": "segundos"
+  }
+}
